@@ -1,14 +1,14 @@
 'use strict';
 
-const exec = require('child_process').exec;
-const pify = require('pify');
+var exec = require('child_process').exec;
+var pify = require('pify');
 
-const f = function (cb) {
-	exec('ps -e | grep -E \'^.* kded4$\'', (error, stdout) => {
+var f = function (cb) {
+	exec('ps -e | grep -E \'^.* kded4$\'', function (error, stdout) {
 		if (error) {
 			cb(null, false);
 		}
-		if ((`${stdout}`).length > 0) {
+		if ((stdout).length > 0) {
 			cb(null, true);
 		}
 		cb(null, false);
