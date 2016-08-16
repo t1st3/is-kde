@@ -1,7 +1,7 @@
 {
   "name": "is-kde",
   "version": "0.1.1",
-  "description": "Check if current session is KDE",
+  "description": "Check if the current session runs KDE desktop",
   "license": "MIT",
   "repository": "t1st3/is-kde",
   "author": {
@@ -35,8 +35,7 @@
   "devDependencies": {
     "ava": "*",
     "coveralls": "^2.11.9",
-    "execa": "^0.4.0",
-    "nyc": "^6.4.0",
+    "nyc": "^8.1.0",
     "xo": "*"
   },
   "nyc": {
