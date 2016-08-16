@@ -1,6 +1,6 @@
 {
   "name": "is-kde",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Check if current session is KDE",
   "license": "MIT",
   "repository": "t1st3/is-kde",
