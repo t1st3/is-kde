@@ -1,8 +1,6 @@
 import test from 'ava';
 import isKde from './';
 
-test('is-kde', t => {
-	return isKde().then(data => {
-		t.false(data);
-	});
+test('is-kde', async t => {
+	t.is(await isKde(), false);
 });
