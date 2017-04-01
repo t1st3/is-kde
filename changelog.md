@@ -1,5 +1,19 @@
 ## Change Log
 
+### 1.0.2 (2017/04/01 12:28 +00:00)
+- [b67a0cf](https://github.com/t1st3/is-kde/commit/b67a0cfe058ca6b635890a11d7f194df2907fd3b) chore: fix dep caret (@t1st3)
+
+### 1.0.1 (2017/04/01 10:41 +00:00)
+- [3e95d3e](https://github.com/t1st3/is-kde/commit/3e95d3ee4f445246a916d6b523ff6058d982d6f6) feat: es6ify (@t1st3)
+- [53c3740](https://github.com/t1st3/is-kde/commit/53c3740251764ebbb9d12a02cba6ea42a310f62e) * origin/greenkeeper-xo-0.19.0:   chore(package): update xo to version 0.19.0 (@t1st3)
+- [e114e8a](https://github.com/t1st3/is-kde/commit/e114e8a2201083663e0b8d2bb3a47c3fe7a45eb0) * 'master' of github.com:t1st3/is-kde:   chore(package): update nyc to version 10.0.0   chore(package): update nyc to version 9.0.1 (@t1st3)
+- [4eeb5c1](https://github.com/t1st3/is-kde/commit/4eeb5c1d0cfc394d996b7a1087a8d433d6ef0f60) 1.0.0 (@t1st3)
+- [61c57eb](https://github.com/t1st3/is-kde/commit/61c57eb332e3dd573a46589e5eeec918dc089b83) chore(package): update xo to version 0.19.0 (@greenkeeperio-bot)
+- [#3](https://github.com/t1st3/is-kde/pull/3) Update nyc to version 10.0.0 🚀 (@t1st3)
+- [5174ac4](https://github.com/t1st3/is-kde/commit/5174ac4f02992787165337ba1b86ecb33ac2f0f6) chore(package): update nyc to version 10.0.0 (@greenkeeperio-bot)
+- [#2](https://github.com/t1st3/is-kde/pull/2) Update nyc to version 9.0.1 🚀 (@t1st3)
+- [b68ca46](https://github.com/t1st3/is-kde/commit/b68ca464301ce6b9abdb8a2ef138f89e4eb17e6b) chore(package): update nyc to version 9.0.1 (@greenkeeperio-bot)
+
 ### 1.0.0 (2016/10/13 17:09 +00:00)
 - [b5eb6ee](https://github.com/t1st3/is-kde/commit/b5eb6ee18804af94bc62220c9adce8358f87d606) test: use async/await rather than a Promise (@t1st3)
 - [a45f008](https://github.com/t1st3/is-kde/commit/a45f0083c608d903dc06ab32215c15ef7500bd35) chore: drop support for Node.js 0.12 (@t1st3)
