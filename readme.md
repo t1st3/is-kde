@@ -1,5 +1,7 @@
 # is-kde [![Build Status Travis](https://travis-ci.org/t1st3/is-kde.svg?branch=master)](https://travis-ci.org/t1st3/is-kde)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/t1st3/is-kde.svg)](https://greenkeeper.io/)
+
 > Check if the current session runs [KDE desktop](https://www.kde.org/).
 
 
