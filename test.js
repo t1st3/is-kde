@@ -1,5 +1,5 @@
 import test from 'ava';
-import isKde from './';
+import isKde from '.';
 
 test('is-kde', async t => {
 	t.is(await isKde(), false);
