@@ -4,7 +4,7 @@ const {exec} = require('child_process');
 const pify = require('pify');
 
 const f = function (cb) {
-	exec('ps -e | grep -E \'^.* kded4$\'', (error, stdout) => {
+	exec('ps -e | grep -E \'^.* kded(4|5)$\'', (error, stdout) => {
 		if (error) {
 			cb(null, false);
 		}
