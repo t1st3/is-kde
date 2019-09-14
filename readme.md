@@ -15,7 +15,7 @@ $ npm install --save is-kde
 ```js
 const isKde = require('is-kde');
 
-isKde().then(data => {
+isKde.then(data => {
   console.log(data);
   //=> true or false
 });
